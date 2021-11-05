@@ -140,7 +140,7 @@
 		"gitDecoration.deletedResourceForeground": "#F14C4C",
 		"gitDecoration.ignoredResourceForeground": "#676E95",
 		"gitDecoration.modifiedResourceForeground": "#A78CFA",
-		"gitDecoration.renamedResourceForeground": "#E4BF7F" /*518DFF蓝色*/,
+		"gitDecoration.renamedResourceForeground": "#E4BF7F",
 		"gitDecoration.submoduleResourceForeground": "#FF6AB3",
 		"gitDecoration.stageDeletedResourceForeground": "#da424f",
 		"gitDecoration.stageModifiedResourceForeground": "#D365E5",
@@ -352,8 +352,6 @@
 		"tree.indentGuidesStroke": "#454963",
 		"walkThrough.embeddedEditorBackground": "#21252B",
 		"welcomePage.background": "#1b1e24",
-		"welcomePage.buttonBackground": "#21252B",
-		"welcomePage.buttonHoverBackground": "#cf4f4f64",
 		"welcomePage.progress.background": "#1b1e24",
 		"welcomePage.progress.foreground": "#4283F5",
 		"welcomePage.tileBackground": "#21252B",
@@ -361,8 +359,6 @@
 		"widget.shadow": "#000"
 	},
 	"semanticHighlighting": false,
-	// "semanticTokenColors": {
-	// },
 	"tokenColors": [
 		{
 			"name": "variable.parameter",
@@ -401,7 +397,7 @@
 			"scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart,source.python,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python, variable.parameter.keyframe-list.css, meta.property-value.css, meta.property-value.scss, entity.name.tag.custom, entity.name.function.scss, source.css.less, variable, support.function.builtin.python,meta.function-call.arguments.python support.function.builtin.python, meta.function-call.c, entity.name.function.preprocessor, meta.parens",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#B0B7C3"
+				"foreground": "#75a8d8"
 			}
 		},
 		{
