@@ -1,0 +1,8 @@
+.test::after {
+	background-color: purple;
+}
+
+.test::hover {
+	background-color: purple;
+	padding: 5px;
+}
