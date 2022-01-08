@@ -16,7 +16,7 @@
 		"breadcrumb.foreground": "#828bb8",
 		"breadcrumbPicker.background": "#1e2030",
 		"button.background": "#f14360",
-		"button.hoverBackground": "#f14360E6",
+		"button.hoverBackground": "#f3657c",
 		"contrastBorder": "#191a2a",
 		"debugToolBar.background": "#1e2030",
 		"diffEditor.insertedTextBackground": "#c3e88d15",
@@ -35,7 +35,7 @@
 		"editorBracketMatch.background": "#222436",
 		"editorBracketMatch.border": "#82aaffbb",
 		"editorCodeLens.foreground": "#828bb8",
-		"editorCursor.foreground": "#82aaff",
+		"editorCursor.foreground": "#ff5252",
 		"editorError.foreground": "#f14360",
 		"editorGroup.border": "#191a2a",
 		"editorGroupHeader.tabsBackground": "#1e2030",
@@ -96,7 +96,7 @@
 		"list.focusBackground": "#131421",
 		"list.focusForeground": "#c8d3f5",
 		"list.highlightForeground": "#86e1fc",
-		"list.hoverBackground": "#1e2030",
+		"list.hoverBackground": "#ffffff10",
 		"list.hoverForeground": "#c8d3f5",
 		"list.inactiveSelectionBackground": "#292e46",
 		"list.inactiveSelectionForeground": "#c8d3f5",
@@ -119,7 +119,7 @@
 		"notifications.foreground": "#c8d3f5",
 		"panel.background": "#191c29",
 		"panel.border": "#00000033",
-		"panelTitle.activeBorder": "#ff8282",
+		"panelTitle.activeBorder": "#ff5353",
 		"panelTitle.activeForeground": "#c8d3f5",
 		"panelTitle.inactiveForeground": "#828bb8",
 		"peekView.border": "#00000030",
@@ -152,9 +152,9 @@
 		"settings.textInputBackground": "#191a2a",
 		"settings.textInputBorder": "#00000066",
 		"settings.textInputForeground": "#c8d3f5",
-		"sideBar.background": "#1e2030",
-		"sideBar.border": "#191a2a",
-		"sideBar.foreground": "#828bb8",
+		"sideBar.background": "#1b1c2b",
+		"sideBar.border": "#c2c2c236",
+		"sideBar.foreground": "#969fca",
 		"sideBarSectionHeader.background": "#1e2030",
 		"sideBarSectionHeader.border": "#2f334d",
 		"sideBarTitle.foreground": "#c8d3f5",
@@ -296,11 +296,6 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
-			"scope": ["keyword.control", "storage"],
-			"settings": {}
-		},
-		{
 			"name": "Interpolation",
 			"scope": [
 				"punctuation.definition.template-expression",
@@ -336,7 +331,6 @@
 			"name": "Operator, Misc",
 			"scope": [
 				"keyword.operator",
-				"keyword.control",
 				"punctuation",
 				"punctuation.definition.string",
 				"punctuation.support.type.property-name",
@@ -347,18 +341,22 @@
 				"meta.tag",
 				"punctuation.separator.inheritance.php",
 				"meta.property-list",
-				"meta.brace.square",
-				"keyword.other.template",
-				"keyword.other.substitution"
+				"meta.brace.square"
 			],
 			"settings": {
 				"foreground": "#86e1fc"
 			}
 		},
 		{
-			"name": "Keyword Control",
-			"scope": ["keyword.control"],
-			"settings": {}
+			"name": "Keywords",
+			"scope": [
+				"keyword.control",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#ca5be6"
+			}
 		},
 		{
 			"name": "Tag",
