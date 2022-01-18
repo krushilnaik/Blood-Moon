@@ -70,7 +70,7 @@
 		"editorWidget.background": "#1e2030",
 		"editorWidget.resizeBorder": "#82aaff",
 		"extensionButton.prominentBackground": "#f14360",
-		"extensionButton.prominentHoverBackground": "#65bcffcc",
+		"extensionButton.prominentHoverBackground": "#ff6565cc",
 		"focusBorder": "#82aaff",
 		"foreground": "#c8d3f5",
 		"gitDecoration.conflictingResourceForeground": "#ffc777cc",
@@ -334,7 +334,6 @@
 				"punctuation",
 				"punctuation.definition.string",
 				"punctuation.support.type.property-name",
-				"punctuation.definition.keyword",
 				"punctuation.terminator.rule",
 				"punctuation.definition.entity",
 				"constant.other.color",
@@ -352,10 +351,12 @@
 			"scope": [
 				"keyword.control",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"punctuation.definition.keyword"
 			],
 			"settings": {
-				"foreground": "#ca5be6"
+				"foreground": "#789ff3",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -561,7 +562,7 @@
 				"support.type.vendored.property-name"
 			],
 			"settings": {
-				"foreground": "#82aaff"
+				"foreground": "#a0bdfc"
 			}
 		},
 		{
@@ -630,14 +631,8 @@
 			"name": "CSS Classes",
 			"scope": ["entity.other.attribute-name.class"],
 			"settings": {
-				"foreground": "#ffc777"
-			}
-		},
-		{
-			"name": "CSS ID's",
-			"scope": ["source.sass keyword.control"],
-			"settings": {
-				"foreground": "#82aaff"
+				"foreground": "#ffc777",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -744,7 +739,7 @@
 			"name": "CSS Units",
 			"scope": ["keyword.other.unit"],
 			"settings": {
-				"foreground": "#fc7b7b"
+				"foreground": "#fd5b5b"
 			}
 		},
 		{

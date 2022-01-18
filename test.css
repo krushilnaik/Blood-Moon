@@ -2,6 +2,10 @@
 	background-color: purple;
 }
 
+#test {
+	margin: 0;
+}
+
 .test::hover {
 	background-color: purple;
 	padding: 5px;
